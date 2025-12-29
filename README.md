@@ -59,7 +59,7 @@ src/
 | Yellow | `#FFD215` | Accents, fish |
 | Off-white | `#FAF9F6` | Light elements |
 
-## 📝 Scripts
+## Scripts
 
 ```bash
 npm run dev      # Start dev server
