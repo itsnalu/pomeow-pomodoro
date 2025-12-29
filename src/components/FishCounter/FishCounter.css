@@ -1,0 +1,29 @@
+.fish-counter {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.fish-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color: #FFD215;
+    margin: 0;
+}
+
+.fish-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fish-text {
+    font-family: 'Fredoka One', cursive;
+    font-size: 36px;
+    color: #FFD215;
+}
+
+.fish-icon {
+    width: 40px;
+    height: auto;
+}

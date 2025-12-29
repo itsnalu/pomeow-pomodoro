@@ -1,0 +1,52 @@
+.control-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.control-btn {
+    width: 200px;
+    height: 65px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: none;
+    background: #7F1E87;
+    color: #FAF9F6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.btn-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.control-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .control-btn {
+        width: 180px;
+        height: 55px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .control-buttons {
+        flex-direction: column;
+    }
+    
+    .control-btn {
+        width: 100%;
+    }
+}

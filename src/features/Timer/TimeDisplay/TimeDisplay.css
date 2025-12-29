@@ -1,0 +1,19 @@
+.time-display {
+    font-family: 'Fredoka One', cursive;
+    font-size: 96px;
+    color: #7F1E87;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .time-display {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 480px) {
+    .time-display {
+        font-size: 48px;
+    }
+}

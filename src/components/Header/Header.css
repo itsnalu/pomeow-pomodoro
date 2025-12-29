@@ -1,0 +1,43 @@
+.header {
+    background-color: #FEBFFF;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0px 4px 4px #231924;
+    padding: 10px 30px;
+}
+
+.header-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+    color: #7F1E87;
+    
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.paw-icon {
+    width: 46px;
+    height: 36.5px;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 8px 20px;
+    }
+    
+    .header-title {
+        font-size: 24px;
+    }
+    
+    .paw-icon {
+        width: 30px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-title {
+        font-size: 16px;
+    }
+}

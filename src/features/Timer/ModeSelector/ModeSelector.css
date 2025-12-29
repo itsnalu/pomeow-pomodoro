@@ -1,0 +1,40 @@
+.mode-selector {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mode-selector button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid #7F1E87;
+    background: transparent;
+    color: #7F1E87;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mode-selector button:hover {
+    background: #7F1E87;
+    color: #FAF9F6;
+}
+
+.mode-selector button.active {
+    background: #7F1E87;
+    color: #FAF9F6;
+}
+
+@media (max-width: 480px) {
+    .mode-selector {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .mode-selector button {
+        width: 100%;
+    }
+}
